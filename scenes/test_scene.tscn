@@ -1,0 +1,17 @@
+[gd_scene load_steps=4 format=3 uid="uid://dg31dyaplcomo"]
+
+[ext_resource type="Script" uid="uid://b8k018k7rnb2a" path="res://code/test_node.gd" id="1_g7g4h"]
+[ext_resource type="Script" uid="uid://cgo0mw53l874" path="res://code/variant_export.gd" id="2_j8ivh"]
+
+[sub_resource type="Resource" id="Resource_j8ivh"]
+script = ExtResource("2_j8ivh")
+type = 19
+value = NodePath(".")
+metadata/_custom_type_script = "uid://cgo0mw53l874"
+
+[node name="Node2D" type="Node2D"]
+
+[node name="TestNode" type="Node" parent="."]
+script = ExtResource("1_g7g4h")
+my_variable = SubResource("Resource_j8ivh")
+metadata/_custom_type_script = "uid://b8k018k7rnb2a"
