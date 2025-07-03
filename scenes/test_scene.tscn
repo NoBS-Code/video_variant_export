@@ -5,8 +5,8 @@
 
 [sub_resource type="Resource" id="Resource_j8ivh"]
 script = ExtResource("2_j8ivh")
-type = 19
-value = NodePath(".")
+type = 2
+value = 0
 metadata/_custom_type_script = "uid://cgo0mw53l874"
 
 [node name="Node2D" type="Node2D"]
